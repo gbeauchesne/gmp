@@ -46,6 +46,9 @@ define(`v0',    `r5')
 ifdef(`BMOD_1_TO_MOD_1_THRESHOLD',,
   `define(`BMOD_1_TO_MOD_1_THRESHOLD',30)')
 
+ifdef(`BMOD_1_TO_MOD_1_THRESHOLD',,
+  `define(`BMOD_1_TO_MOD_1_THRESHOLD',30)')
+
 EXTERN_FUNC(mpn_mod_1)
 EXTERN_FUNC(mpn_modexact_1c_odd)
 
