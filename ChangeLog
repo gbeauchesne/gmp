@@ -1,3 +1,7 @@
+2020-12-12  Marc Glisse  <marc.glisse@inria.fr>
+
+	* gmp-h.in (_GMP_H_HAVE_FILE): Test also _STDIO (for HPE NonStop).
+
 2020-11-13 Marco Bodrato <bodrato@mail.dm.unipi.it>
 
 	* Version 6.2.1 released.
